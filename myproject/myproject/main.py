@@ -1,8 +1,7 @@
-#import django_setup
+#mport django_setup
 
-from venv import student
-
-from myproject.myproject.models import Student
+#from venv.models import student
+from models import Student
 
 student = Student(
     name = 'Scott Carson',
